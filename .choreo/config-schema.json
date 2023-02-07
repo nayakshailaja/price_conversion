@@ -1,0 +1,100 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "choreodemo1210": {
+      "type": "object",
+      "properties": {
+        "currencyrate": {
+          "type": "object",
+          "properties": {
+            "shopifyServiceUrl": {
+              "type": "string",
+              "description": ""
+            },
+            "shopifyAuthConfig": {
+              "type": "object",
+              "properties": {
+                "xShopifyAccessToken": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "xShopifyAccessToken"
+              ],
+              "name": "ballerinax/shopify.admin:2.3.0:ApiKeysConfig",
+              "description": ""
+            },
+            "microsoftOutlookOAuthConfig": {
+              "type": "object",
+              "properties": {
+                "clientId": {
+                  "type": "string"
+                },
+                "clientSecret": {
+                  "type": "string"
+                },
+                "refreshToken": {
+                  "type": "string"
+                },
+                "refreshUrl": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "clientId",
+                "clientSecret",
+                "refreshToken",
+                "refreshUrl"
+              ],
+              "name": "choreodemo1210/currencyrate:3.1.0:MicrosoftOAuth2Config",
+              "description": ""
+            },
+            "microsoftOneDriveOAuthConfig": {
+              "type": "object",
+              "properties": {
+                "clientId": {
+                  "type": "string"
+                },
+                "clientSecret": {
+                  "type": "string"
+                },
+                "refreshToken": {
+                  "type": "string"
+                },
+                "refreshUrl": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "clientId",
+                "clientSecret",
+                "refreshToken",
+                "refreshUrl"
+              ],
+              "name": "choreodemo1210/currencyrate:3.1.0:MicrosoftOAuth2Config",
+              "description": ""
+            },
+            "flyerFilePath": {
+              "type": "string",
+              "description": ""
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "shopifyServiceUrl",
+            "shopifyAuthConfig",
+            "microsoftOutlookOAuthConfig",
+            "microsoftOneDriveOAuthConfig",
+            "flyerFilePath"
+          ]
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
